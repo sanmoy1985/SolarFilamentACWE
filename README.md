@@ -36,6 +36,7 @@ Modify them to point to your local or Google Drive directory depending on where 
 * Displaying Images: If you are running the code on your local machine, use cv2.imshow to display images. For Google Colab, the code uses cv2_imshow to display images inline. Modify it based on your environment.
 
 **Citation**
+
 If you are using the solar image dataset from this source [https://sun10.bao.ac.cn/hsos_data/download/filaments-unet-dataset/](https://sun10.bao.ac.cn/hsos_data/download/filaments-unet-dataset/), please cite the following paper:
 ```
 Zhu, G., Lin, G., Wang, D. et al. Solar Filament Recognition Based on Deep Learning. Sol Phys 294, 117 (2019). https://doi.org/10.1007/s11207-019-1517-4
@@ -46,5 +47,6 @@ S. Bandyopadhyay and V. Pant, "Solar Filaments Detection using Active Contours W
 ```
 
 **Acknowledgements**
+
 Additionally, **whoever is using the code** is requested to acknowledge the source of the data as:
 ***"The author/authors thankfully acknowledge the use of code courtesy of the Aditya-L1 Support Cell Team."***
