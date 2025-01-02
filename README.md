@@ -18,8 +18,7 @@ pip install -r requirements.txt
 
 **Important Notes**
 * **Running on Local Machine:** If you are running the code on your local machine, do not use the following line:
-```
-#python
+```python
 
 from google.colab import drive
 drive.mount('/content/drive')
