@@ -45,6 +45,6 @@ If you are using this code, please cite:
 S. Bandyopadhyay and V. Pant, "Solar Filaments Detection using Active Contours Without Edges," 2024 URSI Regional Conference on Radio Science ( URSI-RCRS), Bhimtal, India, 2024, pp. 1-4, doi:10.46620/URSI_RSRC24/0449KIA7088.
 ```
 
-***Acknowledgements***
+**Acknowledgements**
 Additionally, **whoever is using the code** is requested to acknowledge the source of the data as:
 ***"The author/authors thankfully acknowledge the use of code courtesy of the Aditya-L1 Support Cell Team."***
