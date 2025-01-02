@@ -31,9 +31,9 @@ image_folder = '/content/drive/MyDrive/Bulk_Filament_Detection/train/image/'
 image_folder_gt = '/content/drive/MyDrive/Bulk_Filament_Detection/train/label/'
 ```
 Modify them to point to your local or Google Drive directory depending on where you are running the code.
-* File Formats: The input solar images should be in .jpg, .jpeg, or .png format. You can download such images from this [link](https://sun10.bao.ac.cn/hsos_data/download/filaments-unet-dataset/img/).
+* File Formats: The input solar images should be in `.jpg`, `.jpeg`, or `.png` format. You can download such images from this [link](https://sun10.bao.ac.cn/hsos_data/download/filaments-unet-dataset/img/).
 * Ground Truth: If you want to compare the results with the ground truth, you can download the ground truth images from [here](https://sun10.bao.ac.cn/hsos_data/download/filaments-unet-dataset/mask/).
-* Displaying Images: If you are running the code on your local machine, use cv2.imshow to display images. For Google Colab, the code uses cv2_imshow to display images inline. Modify it based on your environment.
+* Displaying Images: If you are running the code on your local machine, use `cv2.imshow` to display images. For Google Colab, the code uses `cv2_imshow` to display images inline. Modify it based on your environment.
 
 **Citation**
 
