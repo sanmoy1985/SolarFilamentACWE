@@ -12,7 +12,7 @@ To run this code, you need:
 
 You can install the required dependencies by running:
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 **Important Notes**
 * **Running on Local Machine:** If you are running the code on your local machine, do not use the following line:
