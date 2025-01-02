@@ -11,8 +11,7 @@ To run this code, you need:
 * Matplotlib
 
 You can install the required dependencies by running:
-```
-bash
+```bash
 
 pip install -r requirements.txt
 ```
