@@ -1,17 +1,26 @@
-<!DOCTYPE html>  
-<html lang="en">  
-  <head>  
-    <meta charset="utf-8" />  
-    <meta name="viewport" content="width=device-width, initial-scale=1" />  
-    <title>Hello World!</title>  
-    <!-- Linking to PyScript assets -->  
-    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />  
-    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>  
-  </head>  
-  <body>  
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello World!</title>
+    <!-- Linking to PyScript assets -->
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  </head>
+  <body>
     <!-- Put Python code inside the <py-script> tag -->
     <py-script>
-      print('Hello World!')
+      print("Hello World!")
     </py-script>
-  </body>  
+    <p id="output"></p>
+
+    <!-- Adding this script for console output -->
+    <script>
+      // Making sure PyScript is initialized and working
+      document.addEventListener("py-loaded", function () {
+        console.log("PyScript has loaded successfully!");
+      });
+    </script>
+  </body>
 </html>
