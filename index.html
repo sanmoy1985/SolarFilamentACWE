@@ -1,22 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embed Solar Filament Detection App</title>
-    <style>
-        html, body {
-            height: 100%;
-            margin: 0;
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
-</head>
-<body>
-    <iframe src="https://muffled-loose-fossa.anvil.app" title="Solar Filament Detection App"></iframe>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello World!</title>
+    <!-- Linking to PyScript assets -->
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <title>Solar Filament Detector</title>
+    
+  </head>
+  <body>
+    <!-- Put Python code inside the <py-script> tag -->
+    <py-script>
+      print("Hello World!")
+    </py-script>
+    <p id="output"></p>
+    <!-- Adding this script for console output -->
+    <script>
+      // Making sure PyScript is initialized and working
+      document.addEventListener("py-loaded", function () {
+        console.log("PyScript has loaded successfully!");
+      });
+    </script>
+    <script src="https://gist.github.com/sanmoy1985/9ed73b692cd8f3fd19c897199c543a13.js"></script>
+  </body>
 </html>
+0 commit comments
+Comments
+
